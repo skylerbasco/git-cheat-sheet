@@ -53,3 +53,68 @@ Show full change history
 Show change history for file/directory including diffs
 <br>
 ```$ git log -p [file/directory]```
+
+### Working with Branches
+List all local branches
+<br>
+```$ git branch```
+
+List all oranches, local and remote
+<br>
+```$ git branch```
+
+Switch to a branch, my _branch, and update working directory
+<br>
+```$ git checkout my_branch```
+
+Create a new branch called new branch
+<br>
+```$ git branch new_branch```
+
+Delete the branch called my_branch
+<br>
+```$ git branch -d my_branch```
+
+Merge branch _a into branch_b
+<br>
+```$ git checkout branch_b```
+```$ git merge branch_a```
+
+Tag the current commit
+<br>
+```git tag my_tag```
+
+### Make a change
+Stages the file, ready for commit
+§ git add [file]
+Stage all changed files, ready for commit
+S git add
+Commit all staged files to versioned history
+S git commit -m
+"commit message"
+Commit all your tracked files to
+versioned history
+$git commit -am
+"commit message
+Unstages file, keeping the file changes
+S git reset file]
+Revert everything to the last commit
+S cit reset --hard
+
+Synchronize
+Get the latest changes from origin
+(no merge)
+$ git fetch
+Fetch the latest changes from origin
+and merge
+S git pull
+Fetch the latest changes from origin
+and rebase
+S git pull --rebase
+Push local changes to the origin
+$ git push
+Finally!
+When in doubt, use git help
+S cit command --helr
+Or visit https://training.github.com/
+for official GitHub training.
