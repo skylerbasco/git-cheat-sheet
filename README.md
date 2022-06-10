@@ -54,7 +54,7 @@ Show change history for file/directory including diffs
 <br>
 ```git log -p [file/directory]```
 
-### Working with Branches
+### 🌴 Working with Branches
 List all local branches
 <br>
 ```git branch```
