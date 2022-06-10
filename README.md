@@ -109,6 +109,9 @@ Revert everything to the last commit
 <br>
 ```$ git reset --hard```
 
+Overwrite commit history with your own local history (force push):
+```$ git push --force```
+
 ### Synchronize
 Get the latest changes from origin (no merge)
 <br>
