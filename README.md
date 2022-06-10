@@ -19,28 +19,37 @@ Download from an existing repository
 
 ### Observe your Repository
 List new or modified files not yet committed
+<br>
 ```$ git status```
 
 Show the changes to files not yet staged
+<br>
 ```$ git diff```
 
 Show the changes to staged files
+<br>
 ```$ git diff --cached```
 
 Show all staged and unstaged file changes
+<br>
 ```$ git diff HEAD```
 
 Show the changes between two commit ids
+<br>
 ```$ git diff commit1 commit2```
 
 List the change dates and authors for a file
+<br>
 ```$ git blame [file]```
 
 Show the file changes for a commit id and/or file
+<br>
 ```git show [commit]: [file]```
 
 Show full change history
+<br>
 ```$ git log```
 
 Show change history for file/directory including diffs
+<br>
 ```$ git log -p [file/directory]```
