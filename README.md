@@ -10,5 +10,6 @@ My go-to cheat sheet for Git commands! Photo created by REBELLABS by ZEROTURNARO
 ### Create a Repository
 
 From scratch -- Create a new local repository
+<br>
 ```$ git init [project name]```
 
