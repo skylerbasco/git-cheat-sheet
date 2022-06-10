@@ -15,4 +15,4 @@ From scratch -- Create a new local repository
 
 Download from an existing repository
 <br>
-```$ git clone my_url``
+```$ git clone my_url```
