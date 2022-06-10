@@ -13,3 +13,6 @@ From scratch -- Create a new local repository
 <br>
 ```$ git init [project name]```
 
+Download from an existing repository
+<br>
+```$ git clone my_url``
