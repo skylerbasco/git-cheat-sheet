@@ -87,48 +87,48 @@ Tag the current commit
 ### Make a change
 Stages the file, ready for commit
 <br>
-§ git add [file]
+```$ git add [file]```
 
 Stage all changed files, ready for commit
 <br>
-S git add
+```$ git add .```
 
 Commit all staged files to versioned history
 <br>
-S git commit -m "commit message"
+```$ git commit -m "commit message"```
 
 Commit all your tracked files to versioned history
 <br>
-$git commit -am "commit message
+```$ git commit -am "commit message```
 
 Unstages file, keeping the file changes
 <br>
-S git reset file]
+```$ git reset [file]```
 
 Revert everything to the last commit
 <br>
-S cit reset --hard
+```$ git reset --hard```
 
 ### Synchronize
 Get the latest changes from origin (no merge)
 <br>
-$ git fetch
+```$ git fetch```
 
 Fetch the latest changes from origin and merge
 <br>
-S git pull
+```$ git pull```
 
 Fetch the latest changes from origin and rebase
 <br>
-S git pull --rebase
+```$ git pull --rebase```
 
 Push local changes to the origin
 <br>
-$ git push
+```$ git push```
 
 Finally!
 When in doubt, use git help
 <br>
-S cit command --help
+```$ git command --help```
 
 Or visit https://training.github.com/ for official GitHub training.
