@@ -15,7 +15,7 @@ From scratch -- Create a new local repository
 
 Download from an existing repository
 <br>
-```git clone my_url```
+```git clone my_url.git```
 
 ### 🔎 Observe your Repository
 List new or modified files not yet committed
@@ -99,7 +99,7 @@ Commit all staged files to versioned history
 
 Commit all your tracked files to versioned history
 <br>
-```git commit -am "commit message```
+```git commit -am "commit message"```
 
 Unstages file, keeping the file changes
 <br>
